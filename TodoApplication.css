@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    margin: 5px;
+}
+
+body{
+    background-color: #98b9da;
+}
+
+.header{
+    color: black;
+    text-align: center;
+    font-size: 23px;
+}
+
+.container{
+    /* overflow: hidden; */
+    min-height: 20px;   
+    padding: 5px;
+    margin: 5px 0;
+    margin: auto;
+    width: 380px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+#itemInput{
+    border: 10px solid white;
+    /* border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px; */
+    border-radius: 4px;
+    font-size: 16px;
+    width: 270px;
+    margin-left: -6px;
+    height: 40px;
+}
+
+.addbutton{
+    border: none;
+    background-color:crimson;
+    /* padding: 12px; */
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.addbutton:hover{
+    background-color: slategrey;
+    color: white;
+}
+
+#itemForm{
+    width: 380px;
+    padding-right: 2px;
+}
+
+.nav-link{
+    color: black;
+    border-radius: 4px;
+    padding: 10px;
+    align-items: left;
+    justify-content: space-between;
+    /* float: left; */
+   
+}
+
+.fa-check-double{
+    padding-left: 5px;
+}
+
+.fa-edit{
+    color: grey;
+    padding-right: 5px;
+}
+
+.fa-trash-alt{
+    color: red;
+    
+}
+
+#itemList{
+    border-radius: 4px;
+}
+
+.nav-item{
+    font-size: 16px;
+    list-style: none;
+    background-color: white;
+    /* text-align: left; */
+    padding: 6px;
+    margin-top: 5px;
+    padding-bottom: 9px;
+}
+
+.list-group-item{
+    font-size: 16px;
+    list-style: none;
+    width: 368px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 10px;
+    padding-left: 11px;
+    margin-top: 5px;
+    padding-bottom: 4px;
+    border-radius: 6px;
+}
+
+.todolistli{
+    width: 370px;
+    border-radius: 4px;
+    /* margin: 3px; */
+}
+
+/* scroll  */
+.listitems{
+    width: 370px;
+    height: 300px;
+    overflow: auto;
+    overflow-x: hidden;   
+    /* overflow-y: hidden; */
+}
+
+.navtab{
+    /* background-color: white; */
+    padding-top: 12px;  
+    padding-bottom: 11px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+a #allnav{
+    margin-left: 4px;
+}
+
+.green {
+    color: green;
+}
+
+.nav-item{
+    list-style: none;
+    display: inline;
+    padding: 7px;
+    margin-left: 0;
+}
+
+.active{
+    background-color: crimson;
+    color: white;
+    padding: 12px;
+}
+
+.icons{
+    display: flex; 
+    justify-content: right;
+    float: right;
+    padding-right: 5px;
+    margin: -1px;
+}
+
+span{
+    align-items: center;
+    justify-content: left;
+}
+
+.listitems{
+    border-radius: 4px;
+}
+
+.bi-check-circle::before {
+    content: "\f26b";
+    margin-right: 7px;
+}
+
+.bi-check-circle-fill::before {
+    content: "\f26a";
+    margin-right: 7px;
+}
+
+.input-group{
+    width: -1px;
+}
+
+/* to reduce to larger text & make it to dot */
+span.title{
+    display: inline-block;
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+@media screen and(max-width : 986px) {
+    .container{
+        margin: 3px;
+    }  
+}
